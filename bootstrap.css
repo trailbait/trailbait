@@ -580,7 +580,6 @@ and (orientation : portrait) {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-attachment: fixed;
     background-repeat: no-repeat; 
     background-position: center;
   }
