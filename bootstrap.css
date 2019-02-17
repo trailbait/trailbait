@@ -62,7 +62,6 @@ body {
   text-align: left;
   background-image: url(tb-banner.jpg);
   background-color: #E0B0FF;
-  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire 
 }
