@@ -570,6 +570,15 @@ and (max-width: 480px)
 and (orientation : landscape) {
   body {
     background-image: url(tb-banner.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*height:100%;
+    width:100%; */
   }
 }
 
