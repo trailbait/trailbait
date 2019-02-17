@@ -60,9 +60,17 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url(tb-banner.jpg);
+  background-image: url(tb-bg-landscape.jpg);
   background-color: #E0B0FF;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*height:100%;
+  width:100%; */
 }
 
 [tabindex="-1"]:focus {
