@@ -60,8 +60,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url(https://github.com/trailbait/trailbait/blob/master/tb-banner.jpg);
-  background-color: #fff;
+  background-image: url(tb-banner.jpg);
+  background-color: #FFFFFF;
 }
 
 [tabindex="-1"]:focus {
