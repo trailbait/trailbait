@@ -570,8 +570,7 @@ pre code {
 }
 
 /* Mobile Phone (portrait) ----------- */
-@media only screen
-and (max-width: 480px)
+@media (max-width: 480px)
 and (orientation : portrait) {
   body {
     background-image: url(tb-bg-portrait.jpg);
