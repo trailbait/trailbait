@@ -574,15 +574,7 @@ pre code {
 and (orientation : portrait) {
   body {
     background-image: url(tb-bg-portrait.jpg);
-    background-color: #E0B0FF;     
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    min-height: 100%;
+    background-color: #E0B0FF;
   }
 }
 
