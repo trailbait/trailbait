@@ -575,14 +575,16 @@ pre code {
 and (max-width: 480px)
 and (orientation : portrait) {
   body {
-    background: url(tb-bg-portrait.jpg) no-repeat center center fixed;
-    background-color: #E0B0FF;
+    background-image: url(tb-bg-portrait.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
+    -o-background-size: cover;
+    min-height: 100%;
+    }
   }
 }
 
