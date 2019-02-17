@@ -73,6 +73,14 @@ body {
   width:100%; */
 }
 
+tb-title {
+  text-align:center; 
+  color: #E0B0FF; 
+  font-family: courier, monospace; 
+  font-size: 72px; 
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
