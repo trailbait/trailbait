@@ -570,14 +570,15 @@ pre code {
 }
 
 /* Mobile Phone (portrait) ----------- */
-@media (max-width: 480px)
+@media only screen
+and (max-width: 480px)
 and (orientation : portrait) {
   body {
     background-image: url(tb-bg-portrait.jpg);
     background-color: #E0B0FF;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 125%;
+    min-height: 100%;
   }
 }
 
