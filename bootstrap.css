@@ -577,11 +577,10 @@ and (orientation : portrait) {
     background-image: url(tb-bg-portrait.jpg);
     background-color: #E0B0FF;     
     background-size: cover;
-    height: 100%;
+    background-position: center; /* or 50% 50% */
+    background-repeat: no-repeat;
     width: 100%;
-    overflow: hidden;
-    background-repeat: no-repeat; 
-    background-position: center;
+    height: 100%;
   }
 }
 
