@@ -591,15 +591,14 @@ and (orientation : portrait) {
 and (max-width: 480px)
 and (orientation : landscape) {
   body {
-    background-image: url(tb-bg-landscape.jpg);
+    background: url(tb-bg-landscape.jpg) no-repeat center center fixed;
     background-color: #E0B0FF;
-   /* background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
   }
 }
 
