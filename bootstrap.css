@@ -559,9 +559,7 @@ pre code {
 @media (max-width: 480px) {
   body {
     background-image: url(tb-banner-mobile.jpg);
-    background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire
   }
 }
 
@@ -573,7 +571,6 @@ and (orientation : portrait) {
   body {
     background-image: url(tb-banner-mobile.jpg);
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire
   }
 }
