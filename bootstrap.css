@@ -587,8 +587,8 @@ and (orientation : portrait) {
   body {
     background-image: url(tb-bg-portrait.jpg);
     background-color: #E0B0FF;
-    background-repeat: no-repeat; 
-    /*background-position: center;
+    /*background-repeat: no-repeat; 
+    background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
     -moz-background-size: cover;
@@ -604,8 +604,8 @@ and (orientation : landscape) {
   body {
     background-image: url(tb-bg-landscape.jpg);
     background-color: #E0B0FF;
-    background-repeat: no-repeat; 
-    /*background-position: center;
+   /* background-repeat: no-repeat; 
+    background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
     -moz-background-size: cover;
