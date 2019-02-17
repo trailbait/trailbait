@@ -73,14 +73,6 @@ body {
   width:100%; */
 }
 
-tb-title {
-  text-align:center; 
-  color: #E0B0FF; 
-  font-family: courier, monospace; 
-  font-size: 72px; 
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-}
-
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -99,6 +91,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.tb-title {
+  text-align:center; 
+  color: #E0B0FF; 
+  font-family: courier, monospace; 
+  font-size: 72px; 
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 abbr[title],
