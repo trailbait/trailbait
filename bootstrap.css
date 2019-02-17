@@ -63,7 +63,6 @@ body {
   background-image: url(tb-banner.jpg);
   background-color: #E0B0FF;
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire 
 }
 
 [tabindex="-1"]:focus {
