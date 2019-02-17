@@ -582,9 +582,9 @@ and (orientation : portrait) {
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: auto;
+    background-size: cover;
     -o-background-size: cover;
-    height: auto;
+    height: 125%;
     }
   }
 }
