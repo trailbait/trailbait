@@ -60,17 +60,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: url(tb-bg-landscape.jpg);
-  background-color: #E0B0FF;
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-attachment: fixed;       
-  webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*height:100%;
-  width:100%; */
 }
 
 [tabindex="-1"]:focus {
@@ -643,6 +632,19 @@ and (orientation : portrait) {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .body {
+    background-image: url(tb-bg-landscape.jpg);
+    background-color: #E0B0FF;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*height:100%;
+    width:100%; */
   }
 }
 
