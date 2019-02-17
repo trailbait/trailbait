@@ -576,13 +576,13 @@ and (orientation : portrait) {
     background-image: url(tb-bg-portrait.jpg);
     background-color: #E0B0FF;     
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 450px;
+    min-height: 480px;
   }
 }
 
