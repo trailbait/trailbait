@@ -584,8 +584,7 @@ and (orientation : portrait) {
     -moz-background-size: cover;
     background-size: auto;
     -o-background-size: cover;
-    width: 100%;
-    height: 100%;
+    height: auto;
     }
   }
 }
