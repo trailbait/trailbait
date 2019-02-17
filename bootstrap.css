@@ -621,18 +621,6 @@ and (orientation : portrait) {
   .container {
     max-width: 720px;
   }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
   .body {
     background-image: url(tb-bg-landscape.jpg);
     background-color: #E0B0FF;
@@ -645,6 +633,18 @@ and (orientation : portrait) {
     background-size: cover;
     /*height:100%;
     width:100%; */
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
 
