@@ -621,7 +621,7 @@ and (orientation : portrait) {
   .container {
     max-width: 720px;
   }
-  .body {
+  body {
     background-image: url(tb-bg-landscape.jpg);
     background-color: #E0B0FF;
     background-repeat: no-repeat; 
