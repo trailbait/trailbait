@@ -575,7 +575,7 @@ and (orientation : portrait) {
   body {
     background-image: url(tb-bg-portrait.jpg);
     background-color: #E0B0FF;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat; 
   }
 }
