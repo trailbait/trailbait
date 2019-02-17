@@ -555,10 +555,21 @@ pre code {
   margin-left: auto;
 }
 
-/* Mobile Phones ----------- */
-@media (max-width: 480px) {
+/* Mobile Phone (portrait) ----------- */
+@media only screen
+and (max-width: 480px)
+and (orientation : portrait) {
   body {
     background-image: url(tb-banner-mobile.jpg);
+  }
+}
+
+/* Mobile Phone (landscape) ----------- */
+@media only screen
+and (max-width: 480px)
+and (orientation : landscape) {
+  body {
+    background-image: url(tb-banner.jpg);
   }
 }
 
