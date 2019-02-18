@@ -581,22 +581,6 @@ and (orientation : portrait) {
   }
 }
 
-/* Mobile Phone (landscape) ----------- */
-@media only screen
-and (max-width: 480px)
-and (orientation : landscape) {
-  body {
-    background: url(tb-bg-landscape.jpg) no-repeat center center fixed;
-    background-color: #E0B0FF;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-  }
-}
-
 /* iPads (portrait) ----------- 
 @media only screen 
 and (min-device-width : 768px) 
