@@ -575,7 +575,7 @@ pre code {
 and (max-width: 480px)
 and (orientation : portrait) {
   body {
-    background: url("tb-bg-portrait.jpg") no-repeat center center fixed;
+    background: url(tb-bg-portrait.jpg) no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
   }
