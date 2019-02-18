@@ -576,7 +576,7 @@ and (max-width: 480px)
 and (orientation : portrait) {
   body {
     background: url(tb-bg-portrait.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background-size: 100vw auto;
     overflow: hidden;
   }
 }
