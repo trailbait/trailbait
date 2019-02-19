@@ -577,15 +577,17 @@ and (max-width: 480px)
 and (orientation : portrait) {
   body {
     background-image: url(tb-bg-tall-480x900.jpg);
+    background-position: center;
   }
 }
 
 /* Mobile Phone (landscape) ----------- */
 @media only screen
-and (max-width: 480px)
+and (max-width: 900px)
 and (orientation : landscape) {
   body {
     background-image: url(tb-bg-wide-480x900.jpg);
+    background-position: center;
   }
 }
 
@@ -601,7 +603,7 @@ and (orientation : portrait) {
   }
 }*/
 
-@media (min-width : 481px) 
+@media (min-width : 901px) 
 and (orientation : landscape) {
   body {
     background-image: url(tb-bg-wide.jpg);
