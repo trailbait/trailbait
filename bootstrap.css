@@ -576,7 +576,7 @@ pre code {
 and (max-width:480px)
 and (orientation:portrait) {
   body {
-    background-image: url(tb-bg-tall-480x900.jpg);
+    background-image: url(tb-bg-tall-480x768.jpg);
     background-repeat: no-repeat;
   }
 }
@@ -586,7 +586,7 @@ and (orientation:portrait) {
 and (max-width:768px)
 and (orientation:landscape) {
   body {
-    background-image: url(tb-bg-wide-480x900.jpg);
+    background-image: url(tb-bg-wide-480x768.jpg);
     background-repeat: no-repeat; 
   }
 }
