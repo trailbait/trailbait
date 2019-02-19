@@ -577,7 +577,6 @@ and (max-width:480px)
 and (orientation:portrait) {
   body {
     background-image: url(tb-bg-tall-480x768.jpg);
-    background-repeat: no-repeat;
   }
 }
 
