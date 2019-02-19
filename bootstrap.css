@@ -601,7 +601,7 @@ and (orientation : portrait) {
   }
 }*/
 
-@media (min-width : 480px) 
+@media (min-width : 481px) 
 and (orientation : landscape) {
   body {
     background-image: url(tb-bg-wide.jpg);
@@ -616,7 +616,7 @@ and (orientation : landscape) {
   }
 }
 
-@media (min-width : 480px) 
+@media (min-width : 481px) 
 and (orientation : portrait) {
   body {
     background-image: url(tb-bg-tall.jpg);
