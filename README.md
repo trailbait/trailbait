@@ -10,3 +10,4 @@
 - **bootstrap.css** - CSS file for the whole site
 - **favicon.ico** - The icon up in the tab
 - **CNAME** - Obvs
+- **README.md** - What you're reading
