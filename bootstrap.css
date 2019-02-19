@@ -576,7 +576,7 @@ pre code {
 and (max-width:480px)
 and (orientation:portrait) {
   body {
-    background-image: url(tb-bg-tall-480x768.jpg);
+    background-image: url(img/tb-bg-tall-480x768.jpg);
     background-repeat: no-repeat; 
   }
 }
@@ -586,7 +586,7 @@ and (orientation:portrait) {
 and (max-width:768px)
 and (orientation:landscape) {
   body {
-    background-image: url(tb-bg-wide-480x768.jpg);
+    background-image: url(img/tb-bg-wide-480x768.jpg);
     background-repeat: no-repeat; 
   }
 }
@@ -606,7 +606,7 @@ and (orientation : portrait) {
 @media (min-width : 769px) 
 and (orientation : landscape) {
   body {
-    background-image: url(tb-bg-wide.jpg);
+    background-image: url(img/tb-bg-wide.jpg);
     background-color: #E0B0FF;
     background-repeat: no-repeat; 
     background-position: center;
@@ -621,7 +621,7 @@ and (orientation : landscape) {
 @media (min-width : 481px) 
 and (orientation : portrait) {
   body {
-    background-image: url(tb-bg-tall.jpg);
+    background-image: url(img/tb-bg-tall.jpg);
     background-color: #E0B0FF;
     background-repeat: no-repeat; 
     background-position: center;
