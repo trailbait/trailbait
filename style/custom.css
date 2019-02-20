@@ -28,8 +28,7 @@
 
 .icon {
   width: 48px;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin: 0px 12px 0px 12px;
 }
 
 
@@ -74,8 +73,7 @@ and (orientation:landscape) {
   }
   .icon {
     width: 72px;
-    margin-right: 18px;
-    margin-left: 18px;
+    margin: 0px 18px 0px 18px;
   }
 }
 
@@ -89,7 +87,6 @@ and (orientation:portrait) {
   }
   .icon {
     width: 72px;
-    margin-right: 18px;
-    margin-left: 18px;
+    margin: 0px 18px 0px 18px;
   }
 }
