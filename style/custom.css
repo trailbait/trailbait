@@ -36,7 +36,7 @@
 
 .icon {
   width: 48px;
-  margin: 0px 12px 0px 12px;
+  margin: 12px 12px 0px 12px;
 }
 
 /* Small Mobile Phone (landscape) ----------- */
@@ -62,7 +62,7 @@ and (orientation:landscape) {
   }
   .icon {
     width: 72px;
-    margin: 0px 18px 0px 18px;
+    margin: 18px 18px 0px 18px;
   }
 }
 
@@ -81,6 +81,6 @@ and (orientation:portrait) {
   }
   .icon {
     width: 72px;
-    margin: 0px 18px 0px 18px;
+    margin: 18px 18px 0px 18px;
   }
 }
