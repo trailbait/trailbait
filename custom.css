@@ -46,12 +46,26 @@ and (orientation:portrait) {
   }
 }
 
-/* Mobile Phone (landscape) ----------- */
+/* Small Mobile Phone (landscape) ----------- */
+@media only screen
+and (min-width:481px)
+and (orientation:landscape) {
+  .bg {
+    background-image: url(img/tb-bg-wide.jpg);
+  }
+  .tb-title {
+    font-size: 48px; 
+  }
+  .icon {
+    width: 48px;
+  }
+}
+
+/* Wide Mobile Phone (landscape) ----------- */
 @media only screen
 and (min-width:576px) {
   .bg {
     background-image: url(img/tb-bg-wide.jpg);
-    width: 100vh;
   }
     .tb-title {
     font-size: 48px; 
