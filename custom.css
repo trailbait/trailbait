@@ -2,6 +2,11 @@ body {
   background-color: #E0B0FF;
 }
 
+.bg {
+    background-image: url(img/tb-bg-tall.jpg);
+    background-repeat: no-repeat;
+}
+
 .tb-title {
   text-align:center; 
   color: #E0B0FF; 
@@ -26,10 +31,6 @@ body {
 @media only screen
 and (max-width:480px)
 and (orientation:portrait) {
-  body {
-    background-image: url(img/tb-bg-tall-480x768.jpg);
-    background-repeat: no-repeat;
-  }
   .tb-title {
     font-size: 48px; 
   }
