@@ -84,23 +84,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Added by Tony*/
-.tb-title {
-  text-align:center; 
-  color: #E0B0FF; 
-  font-family: courier, monospace; 
-  font-size: 72px; 
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-/* Added by Tony*/
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
