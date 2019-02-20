@@ -1,9 +1,6 @@
-body {
-  background-color: #E0B0FF;
-}
-
 .bg {
     background-image: url(img/tb-bg-tall.jpg);
+    background-color: #E0B0FF;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;       
@@ -18,7 +15,7 @@ body {
   text-align:center; 
   color: #E0B0FF; 
   font-family: courier, monospace; 
-  font-size: 72px; 
+  font-size: 48px; 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -30,11 +27,11 @@ body {
 }
 
 .icon {
-  width: 72px;
+  width: 48px;
 }
 
 
-/* Mobile Phone (portrait) ----------- */
+/* Mobile Phone (portrait) ----------- 
 @media only screen
 and (max-width:480px)
 and (orientation:portrait) {
@@ -45,6 +42,7 @@ and (orientation:portrait) {
     width: 48px;
   }
 }
+*/
 
 /* Small Mobile Phone (landscape) ----------- */
 @media only screen
@@ -52,26 +50,6 @@ and (min-width:481px)
 and (orientation:landscape) {
   .bg {
     background-image: url(img/tb-bg-wide.jpg);
-  }
-  .tb-title {
-    font-size: 48px; 
-  }
-  .icon {
-    width: 48px;
-  }
-}
-
-/* Wide Mobile Phone (landscape) ----------- */
-@media only screen
-and (min-width:576px) {
-  .bg {
-    background-image: url(img/tb-bg-wide.jpg);
-  }
-    .tb-title {
-    font-size: 48px; 
-  }
-  .icon {
-    width: 48px;
   }
 }
 
@@ -81,9 +59,6 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
   body {
-    background-image: url(tb-banner-mobile.jpg);
-    background-position: center; Center the image 
-    background-size: cover; Resize the background image to cover the entire
   }
 }*/
 
