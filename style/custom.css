@@ -28,7 +28,6 @@
 
 .icon {
   width: 48px;
-  padding: 0px 24px 0px 24px;
 }
 
 
@@ -72,6 +71,5 @@ and (orientation : portrait) {
   }
   .icon {
     width: 72px;
-    padding: 0px 36px 0px 36px;
   }
 }
