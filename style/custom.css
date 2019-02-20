@@ -20,6 +20,14 @@
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.tb-subtitle {
+  text-align:center; 
+  color: #DCF3FF; 
+  font-family: courier, monospace; 
+  font-size: 16px; 
+  text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .centered {
   position: fixed;
   top: 50%;
