@@ -17,8 +17,8 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.small-icon {
-  width: 48px;
+.icon {
+  width: 72px;
 }
 
 
@@ -32,6 +32,9 @@ and (orientation:portrait) {
   }
   .tb-title {
     font-size: 48px; 
+  }
+  .icon {
+    width: 48px;
   }
 }
 
