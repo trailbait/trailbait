@@ -29,9 +29,16 @@
 
 .tb-subtitle {
   text-align:center; 
-  color: #E0B0FF; 
+  color: #AF46F0; 
   font-family: courier, monospace; 
   font-size: 16px; 
+}
+
+.tb-subtitle-2 {
+  text-align:center; 
+  color: #E0B0FF; 
+  font-family: courier, monospace; 
+  font-size: 14px; 
 }
     
 .centered {
@@ -67,6 +74,9 @@ and (orientation:landscape) {
   .tb-subtitle {
     font-size: 24px;
   }
+  .tb-subtitle-2 {
+    font-size: 20px;
+  }
   .tb-subtitle-dark {
     font-size: 24px;
   }
@@ -87,6 +97,9 @@ and (orientation:portrait) {
     font-size: 72px; 
   }
   .tb-subtitle {
+    font-size: 24px;
+  }
+  .tb-subtitle-2 {
     font-size: 24px;
   }
   .tb-subtitle-dark {
