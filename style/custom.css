@@ -18,7 +18,7 @@
   font-family: courier, monospace; 
   font-size: 48px; 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-  margin: 10px;
+  margin:10px;
 }
 
 .tb-subtitle {
@@ -64,7 +64,7 @@ and (orientation:landscape) {
   }
   .tb-title {
     font-size: 72px;
-    margin: 14px;
+    margin: 10px;
   }
   .tb-subtitle {
     font-size: 24px;
@@ -87,7 +87,7 @@ and (orientation:portrait) {
   }
   .tb-title {
     font-size: 72px;
-    margin: 14px;
+    margin: 10px;
   }
   .tb-subtitle {
     font-size: 24px;
