@@ -18,7 +18,8 @@
   font-family: courier, monospace; 
   font-size: 48px; 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-  margin: 0px 12px 12px 12px;
+  margin: 12px;
+  /*margin: 0px 12px 12px 12px;*/
 }
 
 .tb-subtitle {
@@ -44,7 +45,8 @@
 
 .icon {
   width: 48px;
-  margin: 12px 12px 0px 12px;
+  margin: 12px;
+  /*margin: 12px 12px 0px 12px;*/
 }
 
 /* Small Mobile Phone (landscape) ----------- */
@@ -64,7 +66,8 @@ and (orientation:landscape) {
   }
   .tb-title {
     font-size: 72px;
-    margin: 0px 18px 18px 18px;
+    margin: 18px;
+    /*margin: 0px 18px 18px 18px;*/
   }
   .tb-subtitle {
     font-size: 24px;
@@ -74,7 +77,8 @@ and (orientation:landscape) {
   }
   .icon {
     width: 72px;
-    margin: 18px 18px 0px 18px;
+    margin: 18px;
+    /*margin: 18px 18px 0px 18px;*/
   }
 }
 
@@ -87,7 +91,8 @@ and (orientation:portrait) {
   }
   .tb-title {
     font-size: 72px;
-    margin: 0px 18px 18px 18px;
+    margin: 18px;
+    /*margin: 0px 18px 18px 18px;*/
   }
   .tb-subtitle {
     font-size: 24px;
@@ -97,6 +102,7 @@ and (orientation:portrait) {
   }
   .icon {
     width: 72px;
-    margin: 18px 18px 0px 18px;
+    margin: 18px;
+    /*margin: 18px 18px 0px 18px;*/
   }
 }
