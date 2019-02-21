@@ -18,6 +18,7 @@
   font-family: courier, monospace; 
   font-size: 48px; 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 12px 12px 0px 12px;
 }
 
 .tb-subtitle {
@@ -62,7 +63,8 @@ and (orientation:landscape) {
     background-image: url(../img/tb-bg-wide.jpg);
   }
   .tb-title {
-    font-size: 72px; 
+    font-size: 72px;
+    margin: 18px 18px 0px 18px;
   }
   .tb-subtitle {
     font-size: 24px;
@@ -83,8 +85,9 @@ and (orientation:portrait) {
   .bg {
     background-image: url(../img/tb-bg-tall.jpg);
   }
-    .tb-title {
-    font-size: 72px; 
+  .tb-title {
+    font-size: 72px;
+    margin: 18px 18px 0px 18px;
   }
   .tb-subtitle {
     font-size: 24px;
