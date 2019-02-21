@@ -64,7 +64,7 @@ and (orientation:landscape) {
   }
   .tb-title {
     font-size: 72px;
-    margin: 10px;
+    margin: 6px;
   }
   .tb-subtitle {
     font-size: 24px;
@@ -87,7 +87,7 @@ and (orientation:portrait) {
   }
   .tb-title {
     font-size: 72px;
-    margin: 10px;
+    margin: 6px;
   }
   .tb-subtitle {
     font-size: 24px;
