@@ -67,6 +67,9 @@ and (orientation:landscape) {
   .tb-subtitle {
     font-size: 24px;
   }
+  .tb-subtitle-dark {
+    font-size: 24px;
+  }
   .icon {
     width: 72px;
     margin: 18px 18px 0px 18px;
@@ -84,6 +87,9 @@ and (orientation:portrait) {
     font-size: 72px; 
   }
   .tb-subtitle {
+    font-size: 24px;
+  }
+  .tb-subtitle-dark {
     font-size: 24px;
   }
   .icon {
