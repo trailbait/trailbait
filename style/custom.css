@@ -12,15 +12,23 @@
     height: 100vh;
 }
 
-.tb-title {
+/*.tb-title {
   text-align:center; 
   color: #E0B0FF; 
   font-family: courier, monospace; 
   font-size: 48px; 
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
   margin: 2px;
-}
+}*/
 
+.tb-title {
+  text-align:center; 
+  color: #E0B0FF; 
+  font-family: "Cabin sketch"; 
+  font-size: 48px; 
+  margin: 2px;
+}
+    
 .tb-subtitle {
   text-align:center; 
   color: #AF46F0; 
