@@ -72,7 +72,7 @@ and (orientation:landscape) {
     background-image: url(../img/tb-bg-wide.jpg);
   }
   .tb-title {
-    font-size: 96px;
+    font-size: 108px;
     margin: 4px;
   }
   .tb-subtitle {
