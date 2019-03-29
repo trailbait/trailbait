@@ -33,15 +33,15 @@
 .tb-subtitle {
   text-align:center; 
   color: #AF46F0; 
-  font-family: courier, monospace; 
-  font-size: 16px;
+  font-size: 24px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .tb-subtitle-2 {
   text-align:center; 
   color: #E0B0FF; 
-  font-family: courier, monospace; 
-  font-size: 14px; 
+  font-size: 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
 }
     
 .centered {
