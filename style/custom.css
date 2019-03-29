@@ -25,7 +25,7 @@
   text-align:center; 
   color: #E0B0FF; 
   font-family: "Cabin sketch"; 
-  font-size: 48px;
+  font-size: 64px;
   text-shadow: -1px -1px 0 #AF46F0, 1px -1px 0 #AF46F0, 1px 1px 0 #AF46F0, 1px 1px 0 #AF46F0;
   margin: 2px;
 }
@@ -95,7 +95,7 @@ and (orientation:portrait) {
     background-image: url(../img/tb-bg-tall.jpg);
   }
   .tb-title {
-    font-size: 72px;
+    font-size: 108px;
     margin: 4px;
   }
   .tb-subtitle {
