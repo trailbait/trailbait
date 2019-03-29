@@ -43,6 +43,13 @@
   color: #E0B0FF; 
   font-size: 20px;
 }
+
+.tb-subtitle-3 {
+  text-align:center;
+  font-family: "Cabin sketch"; 
+  color: #E0B0FF; 
+  font-size: 16px;
+}
     
 .centered {
   position: fixed;
@@ -79,7 +86,10 @@ and (orientation:landscape) {
     font-size: 36px;
   }
   .tb-subtitle-2 {
-    font-size: 32px;
+    font-size: 30px;
+  }
+  .tb-subtitle-2 {
+    font-size: 24px;
   }
   .icon {
     width: 72px;
@@ -102,7 +112,10 @@ and (orientation:portrait) {
     font-size: 36px;
   }
   .tb-subtitle-2 {
-    font-size: 32px;
+    font-size: 30px;
+  }
+  .tb-subtitle-2 {
+    font-size: 24px;
   }
   .icon {
     width: 72px;
