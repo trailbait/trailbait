@@ -25,7 +25,8 @@
   text-align:center; 
   color: #E0B0FF; 
   font-family: "Cabin sketch"; 
-  font-size: 48px; 
+  font-size: 48px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
   margin: 2px;
 }
     
