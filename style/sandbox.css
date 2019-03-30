@@ -1,0 +1,124 @@
+/* Default values are for portrait mobile phone */
+.bg {
+    background-image: url(../img/tb-bg-tall.jpg);
+    background-color: #E0B0FF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*.tb-title {
+  text-align:center; 
+  color: #E0B0FF; 
+  font-family: courier, monospace; 
+  font-size: 48px; 
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
+  margin: 2px;
+}*/
+
+.tb-title {
+  text-align:center; 
+  color: #E0B0FF; 
+  font-family: "Cabin sketch"; 
+  font-size: 64px;
+  text-shadow: -1px -1px 0 #AF46F0, 1px -1px 0 #AF46F0, 1px 1px 0 #AF46F0, 1px 1px 0 #AF46F0;
+  margin: 2px;
+}
+    
+.tb-subtitle {
+  text-align:center;
+  font-family: "Cabin sketch"; 
+  color: #AF46F0; 
+  font-size: 24px;
+}
+
+.tb-subtitle-2 {
+  text-align:center;
+  font-family: "Cabin sketch"; 
+  color: #E0B0FF; 
+  font-size: 20px;
+}
+
+.tb-subtitle-3 {
+  text-align:center;
+  font-family: "Cabin sketch"; 
+  color: #E0B0FF; 
+  font-size: 16px;
+}
+    
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  width: 36px;
+  margin: 9px;
+}
+
+/* Small Mobile Phone (landscape) ----------- */
+@media only screen
+and (min-width:481px)
+and (orientation:landscape) {
+  .bg {
+    background-image: url(../img/tb-bg-wide.jpg);
+  }
+}
+
+/* Computers and Horizontal Tablets */
+@media (min-width : 768px)
+and (orientation:landscape) {
+  .bg {
+    background-image: url(../img/tb-bg-wide.jpg);
+  }
+  .tb-title {
+    font-size: 108px;
+    margin: 4px;
+  }
+  .tb-subtitle {
+    font-size: 36px;
+  }
+  .tb-subtitle-2 {
+    font-size: 30px;
+  }
+  .tb-subtitle-2 {
+    font-size: 24px;
+  }
+  .icon {
+    width: 72px;
+    margin: 18px;
+  }
+}
+
+/* Portrait Tablets */
+@media only screen  
+and (min-width : 768px)
+and (orientation:portrait) {
+  .bg {
+    background-image: url(../img/tb-bg-tall.jpg);
+  }
+  .tb-title {
+    font-size: 108px;
+    margin: 4px;
+  }
+  .tb-subtitle {
+    font-size: 36px;
+  }
+  .tb-subtitle-2 {
+    font-size: 30px;
+  }
+  .tb-subtitle-2 {
+    font-size: 24px;
+  }
+  .icon {
+    width: 72px;
+    margin: 18px;
+  }
+}
