@@ -16,7 +16,7 @@ div {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
-width: 100%;
+width: auto;
 height: auto;
 padding: 1%;
 text-align: center;
