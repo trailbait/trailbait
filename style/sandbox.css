@@ -106,7 +106,7 @@ and (orientation:landscape) {
     margin: 2px;
   }
   .tb-subtitle-2 {
-    font-size: 36px;
+    font-size: 32px;
     margin: 2px;
     margin-left: 25%; 
     margin-right: 25%;
@@ -137,7 +137,7 @@ and (orientation:portrait) {
     margin: 2px;
   }
   .tb-subtitle-2 {
-    font-size: 36px;
+    font-size: 32px;
     margin: 2px;
     margin-left: 10%; 
     margin-right: 10%;
