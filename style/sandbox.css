@@ -10,7 +10,7 @@
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-}/*
+
 div {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
@@ -20,7 +20,7 @@ height: auto;
 padding: 1%;
 text-align: center;
 }
-*/
+
 
 /*.tb-title {
   text-align:center; 
