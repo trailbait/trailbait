@@ -46,6 +46,7 @@ text-align: center;
   font-family: "Cabin sketch"; 
   color: #AF46F0; 
   font-size: 30px;
+  margin: 2px;
 }
 
 .tb-subtitle-2 {
@@ -53,6 +54,7 @@ text-align: center;
   font-family: "Cabin sketch"; 
   color: #E0B0FF; 
   font-size: 24px;
+  margin: 2px;
 }
 
 .tb-subtitle-3 {
@@ -60,6 +62,7 @@ text-align: center;
   font-family: "Cabin sketch"; 
   color: #E0B0FF; 
   font-size: 20px;
+  margin: 2px;
 }
     
 .centered {
