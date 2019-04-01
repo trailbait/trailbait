@@ -57,8 +57,6 @@ text-align: center;
   font-size: 20px;
   text-shadow: -1px -1px 0 #AF46F0;
   margin: 2px;
-  margin-left: 10%; 
-  margin-right: 10%;
 }
 
 .tb-subtitle-3 {
@@ -104,15 +102,16 @@ and (orientation:landscape) {
   .tb-subtitle {
     font-size: 42px;
     margin: 2px;
+    text-shadow: none;
   }
   .tb-subtitle-2 {
     font-size: 36px;
     margin: 2px;
-    margin-left: 25%; 
-    margin-right: 25%;
+    text-shadow: none;
   }
   .tb-subtitle-3 {
     font-size: 24px;
+    text-shadow: none;
     margin: 2px;
   }
   .icon {
@@ -134,16 +133,17 @@ and (orientation:portrait) {
   }
   .tb-subtitle {
     font-size: 42px;
+    text-shadow: none;
     margin: 2px;
   }
   .tb-subtitle-2 {
     font-size: 36px;
+    text-shadow: none;
     margin: 2px;
-    margin-left: 10%; 
-    margin-right: 10%;
   }
   .tb-subtitle-3 {
     font-size: 24px;
+    text-shadow: none;
     margin: 2px;
   }
   .icon {
