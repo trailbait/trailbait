@@ -12,6 +12,17 @@
     height: 100vh;
 }
 
+div {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+width: auto;
+height: auto;
+padding: 1%;
+text-align: center;
+}
+
+
 /*.tb-title {
   text-align:center; 
   color: #E0B0FF; 
@@ -35,6 +46,8 @@
   font-family: "Cabin sketch"; 
   color: #AF46F0; 
   font-size: 24px;
+  text-shadow: -1px -1px 0 #E0B0FF;
+  margin: 2px;
 }
 
 .tb-subtitle-2 {
@@ -42,13 +55,17 @@
   font-family: "Cabin sketch"; 
   color: #E0B0FF; 
   font-size: 20px;
+  text-shadow: -1px -1px 0 #AF46F0;
+  margin: 2px;
 }
 
 .tb-subtitle-3 {
   text-align:center;
   font-family: "Cabin sketch"; 
-  color: #E0B0FF; 
+  color: #E0B0FF;
+  text-shadow: -1px -1px 0 #AF46F0;
   font-size: 16px;
+  margin: 2px;
 }
     
 .centered {
@@ -80,16 +97,22 @@ and (orientation:landscape) {
   }
   .tb-title {
     font-size: 108px;
-    margin: 4px;
+    margin: 2px;
   }
   .tb-subtitle {
+    font-size: 42px;
+    margin: 2px;
+    text-shadow: none;
+  }
+  .tb-subtitle-2 {
     font-size: 36px;
+    margin: 2px;
+    text-shadow: none;
   }
-  .tb-subtitle-2 {
-    font-size: 30px;
-  }
-  .tb-subtitle-2 {
+  .tb-subtitle-3 {
     font-size: 24px;
+    text-shadow: none;
+    margin: 2px;
   }
   .icon {
     width: 72px;
@@ -106,16 +129,22 @@ and (orientation:portrait) {
   }
   .tb-title {
     font-size: 108px;
-    margin: 4px;
+    margin: 2px;
   }
   .tb-subtitle {
+    font-size: 42px;
+    text-shadow: none;
+    margin: 2px;
+  }
+  .tb-subtitle-2 {
     font-size: 36px;
+    text-shadow: none;
+    margin: 2px;
   }
-  .tb-subtitle-2 {
-    font-size: 30px;
-  }
-  .tb-subtitle-2 {
+  .tb-subtitle-3 {
     font-size: 24px;
+    text-shadow: none;
+    margin: 2px;
   }
   .icon {
     width: 72px;
