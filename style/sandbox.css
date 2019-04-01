@@ -36,9 +36,9 @@ text-align: center;
   text-align:center; 
   color: #E0B0FF; 
   font-family: "Cabin sketch"; 
-  font-size: 64px;
+  font-size: 72px;
   text-shadow: -1px -1px 0 #AF46F0, 1px -1px 0 #AF46F0, 1px 1px 0 #AF46F0, 1px 1px 0 #AF46F0;
-  margin: 2px;
+  margin: 4px;
 }
     
 .tb-subtitle {
@@ -97,7 +97,7 @@ and (orientation:landscape) {
   }
   .tb-title {
     font-size: 108px;
-    margin: 2px;
+    margin: 4px;
   }
   .tb-subtitle {
     font-size: 42px;
@@ -129,7 +129,7 @@ and (orientation:portrait) {
   }
   .tb-title {
     font-size: 108px;
-    margin: 2px;
+    margin: 4px;
   }
   .tb-subtitle {
     font-size: 42px;
