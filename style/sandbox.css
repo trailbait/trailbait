@@ -110,7 +110,7 @@ and (orientation:landscape) {
     text-shadow: none;
   }
   .tb-subtitle-3 {
-    font-size: 32px;
+    font-size: 30px;
     text-shadow: none;
     margin: 2px;
   }
@@ -142,7 +142,7 @@ and (orientation:portrait) {
     margin: 2px;
   }
   .tb-subtitle-3 {
-    font-size: 32px;
+    font-size: 30px;
     text-shadow: none;
     margin: 2px;
   }
