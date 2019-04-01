@@ -95,12 +95,15 @@ and (orientation:landscape) {
   }
   .tb-subtitle {
     font-size: 42px;
+    margin: 4px;
   }
   .tb-subtitle-2 {
     font-size: 36px;
+    margin: 4px;
   }
   .tb-subtitle-2 {
     font-size: 32px;
+    margin: 4px;
   }
   .icon {
     width: 72px;
@@ -121,12 +124,15 @@ and (orientation:portrait) {
   }
   .tb-subtitle {
     font-size: 42px;
+    margin: 4px;
   }
   .tb-subtitle-2 {
     font-size: 36px;
+    margin: 4px;
   }
   .tb-subtitle-2 {
     font-size: 32px;
+    margin: 4px;
   }
   .icon {
     width: 72px;
