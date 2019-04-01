@@ -36,7 +36,7 @@ text-align: center;
   text-align:center; 
   color: #E0B0FF; 
   font-family: "Cabin sketch"; 
-  font-size: 72px;
+  font-size: 64px;
   text-shadow: -1px -1px 0 #AF46F0, 1px -1px 0 #AF46F0, 1px 1px 0 #AF46F0, 1px 1px 0 #AF46F0;
   margin: 4px;
 }
@@ -45,7 +45,7 @@ text-align: center;
   text-align:center;
   font-family: "Cabin sketch"; 
   color: #AF46F0; 
-  font-size: 30px;
+  font-size: 24px;
   text-shadow: -1px -1px 0 #E0B0FF;
   margin: 2px;
 }
@@ -54,7 +54,7 @@ text-align: center;
   text-align:center;
   font-family: "Cabin sketch"; 
   color: #E0B0FF; 
-  font-size: 24px;
+  font-size: 20px;
   text-shadow: -1px -1px 0 #AF46F0;
   margin: 2px;
 }
@@ -64,7 +64,7 @@ text-align: center;
   font-family: "Cabin sketch"; 
   color: #E0B0FF;
   text-shadow: -1px -1px 0 #AF46F0;
-  font-size: 20px;
+  font-size: 16px;
   margin: 2px;
 }
     
@@ -110,7 +110,7 @@ and (orientation:landscape) {
     text-shadow: none;
   }
   .tb-subtitle-3 {
-    font-size: 30px;
+    font-size: 24px;
     text-shadow: none;
     margin: 2px;
   }
@@ -142,7 +142,7 @@ and (orientation:portrait) {
     margin: 2px;
   }
   .tb-subtitle-3 {
-    font-size: 30px;
+    font-size: 24px;
     text-shadow: none;
     margin: 2px;
   }
